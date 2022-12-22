@@ -1,0 +1,33 @@
+.row {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 550ms;
+    border-radius: 7px;
+}
+.row__poster:hover {
+    transform: scale(1.18);
+    opacity: 1.2;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+.row__youtube {
+	padding: "40px";
+}
